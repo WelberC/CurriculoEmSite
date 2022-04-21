@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #072227;
+}
+
+
+
+.topnav li, a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #151515;
+    text-decoration: none;
+    background-color: #35858B;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #35858B;
+}
+
+.logopag{
+    cursor: pointer;
+    background-color: #35858B;
+}
+
+.topnav{
+    list-style: none;
+    background-color: #35858B;
+}
+
+.topnav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.topnav li a{
+    transition: all 0.3s ease 0s;
+    color: white;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 18px;
+}
+
+.topnav li a:hover{
+    color: #610B5E;
+}
+
+.quemeusou{
+    margin-top: 20px;
+}
+
+
+.Titulos{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.fotodeperfil{
+    border-radius: 300px;
+}
+
+.textos{
+    font-family: 'Spline Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sections{
+    margin-top: 20px;
+}
+
+
+.icones{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
